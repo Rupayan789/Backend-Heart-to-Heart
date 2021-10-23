@@ -71,11 +71,12 @@ module.exports={
                 isGoogleSignIn:true,
                 isLoggedIn:true
                 })
+                const newPatient1 = await Patient.findOne({email:email}).exec();
                 return res.send({
                     status:200,
                     success:true,
                     message:"Successfully Authenticated",
-                    response:patient
+                    response:newPatient1
                 })
             }
             const hashedPassword=await bcrypt.hash(password,10);
