@@ -4,8 +4,7 @@
 
 module.exports={
     async uploadReport(req,res,next) {
-
-        console.log(req)
+        
         return res.send({
             success:true,
             status:200,

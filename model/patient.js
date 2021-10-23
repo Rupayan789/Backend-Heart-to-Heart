@@ -72,6 +72,14 @@ const patientSchema=new mongoose.Schema({
     type:{
         type:String,
         default:"patient"
+    },
+    startDate:{
+        type:String,
+        default:""
+    },
+    daysCompleted:{
+        type:Number,
+        default:0
     }
 
 
