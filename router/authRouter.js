@@ -2,7 +2,7 @@
 const router = require('express').Router({mergeParams:true});
 
 const authController = require('../controller/authController');
-const isLoggedIn = require('../middleware/authMiddleware');
+
 
 
 router.post('/patient/signup',authController.signUpPatientWithEmail);

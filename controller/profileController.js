@@ -1,5 +1,5 @@
 const Patient=require("../model/patient");
-const Therapist=require("../model/therapist");
+// const Therapist=require("../model/therapist");
 
 module.exports = {
     async getPatientDetails(req,res,next){

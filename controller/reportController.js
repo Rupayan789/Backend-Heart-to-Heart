@@ -1,5 +1,5 @@
-const Patient=require("../model/patient");
-const Therapist=require("../model/therapist");
+// const Patient=require("../model/patient");
+// const Therapist=require("../model/therapist");
 
 
 module.exports={
