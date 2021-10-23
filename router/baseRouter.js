@@ -1,6 +1,6 @@
 const router = require('express').Router({mergeParams:true});
 const authRouter = require('./authRouter');
-const passport=require('passport');
+
 const profileRouter = require('./profileRouter')
 const reportRouter = require('./reportRouter')
 

@@ -3,17 +3,9 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 const morgan=require("morgan");
 const cors=require('cors');
-// const passport = require('passport')
-// const cookieSession = require('cookie-session')
-// require('./passport-setup');
+
 const baseRouter = require("./router/baseRouter")
 const app=express();
-// app.use(cookieSession({
-//     name: 'heart',
-//     keys: ['key1', 'key2']
-//   }))
-// app.use(passport.initialize());
-// app.use(passport.session());
 app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'));

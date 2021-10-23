@@ -152,7 +152,7 @@ module.exports={
             return res.send({
                 status:500,
                 success:false,
-                error:err,
+                error:err.message,
                 response:null
             })
         }
